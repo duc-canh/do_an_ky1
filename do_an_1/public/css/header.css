@@ -1,3 +1,6 @@
+#count-item{
+    line-height: 50px;
+}
 .fixed{
     position: fixed;
     z-index: 900;

@@ -7,6 +7,24 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.img-product-fly{
+    position: absolute;
+    z-index: 10000000;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 2px red solid;
+    transition: all 1s ease;
+    animation: my-animation 1.5s;
+}
+@keyframes my-animation {
+    0%   {transform: scale(0.4);}
+    25%  {transform: scale(1);}
+    75%  {transform: scale(1);}
+    100% {transform: scale(0.4);}
+}
+
 .container{
     max-width: 1300px;
     margin: auto;
